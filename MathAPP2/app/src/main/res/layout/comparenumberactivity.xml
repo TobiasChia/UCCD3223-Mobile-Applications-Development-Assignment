@@ -4,6 +4,15 @@
     android:layout_height="match_parent"
     android:padding="16dp">
 
+    <Button
+        android:id="@+id/btnToggleRule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Greater Than To Less Than"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:layout_above="@id/numberContainer" />
+
     <LinearLayout
         android:id="@+id/numberContainer"
         android:layout_width="wrap_content"
@@ -36,9 +45,7 @@
         android:layout_height="wrap_content"
         android:text="Home"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
 
 </RelativeLayout>
-
-
-

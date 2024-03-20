@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MathAPP</string>
+    <string name="greater_than_to_less_than">Greater Than To Less Than</string>
 </resources>
